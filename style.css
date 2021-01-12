@@ -1,0 +1,93 @@
+/* header */
+header {
+	height: 100px;
+	width: 100vw;
+	background: rgb(44, 44, 44);
+	overflow: hidden;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	clear: both;
+}
+
+li {
+	display: inline-block;
+	margin-right: 5rem;
+	color: rgb(168, 168, 168);
+	font-size: 1.2rem;
+}
+
+/* end of header */
+
+/* main */
+main {
+	clear: both;
+}
+.main-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3rem;
+}
+
+.sub-img {
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+}
+
+.sub-img img {
+	margin: 1rem;
+}
+
+.article {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 2rem;
+	overflow: hidden;
+}
+
+.img {
+	float: left;
+	max-width: 50%;
+}
+
+.info {
+	float: left;
+	max-width: 40%;
+	margin-left: 5rem;
+	text-align: justify;
+}
+
+.info p {
+	height: 200px;
+}
+
+.info p {
+	height: 340px;
+	overflow: hidden;
+}
+
+.info .btn {
+	color: white;
+	background-color: black;
+	border: none;
+	padding: 0.5rem 1rem;
+	margin-top: 0.8rem;
+}
+
+/* end of main */
+
+/* footer */
+footer {
+	width: 100vw;
+	height: 100px;
+	background: rgb(44, 44, 44);
+	clear: both;
+	margin-top: 3rem;
+}
+
+/* end of footer */
